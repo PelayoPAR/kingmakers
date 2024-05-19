@@ -35,7 +35,7 @@ export default function Dashboard() {
   });
 }
 getPokemons()
-  }, [page, limit])
+  }, [page])
 
   const lastPage = Math.floor(pokeCount/limit)
 
